@@ -66,7 +66,7 @@ bin/hadoop namenode -format
 
 ### Run a test job
 
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.4.jar grep input output 'dfs[a-z.]+'
+bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.6.jar grep input output 'dfs[a-z.]+'
 
 Note: there is no such dir default, you can add data by
 
@@ -84,4 +84,4 @@ YARN: hadoop-master:8088
 
 HDFS: hadoop-master:50070
 
-_Proxy needed: newnius/docker-proxy_
+_Proxy needed: anjun/docker-proxy_
