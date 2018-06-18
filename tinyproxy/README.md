@@ -10,3 +10,4 @@ newnius/tinyproxy
 
 default conf:
   - [tinyconf.conf](tinyproxy.conf)
+参考:https://github.com/newnius/Dockerfiles
