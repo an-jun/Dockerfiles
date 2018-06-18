@@ -1,4 +1,4 @@
-FROM anjun/hadoop:2.7.6
+FROM anjun/hadoop:2.8.1
 
 MAINTAINER anjun <anjunact@qq.com>
 
